@@ -1,0 +1,94 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #ffdede, #fff3f3);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 2em;
+  color: #444;
+}
+
+/* Service Sections */
+.service {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.service img {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.service img:hover {
+  transform: scale(1.03);
+}
+
+.service p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+
+/* Learn More Button */
+.learn-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 25px;
+  background-color: #ff7f7f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.learn-button:hover {
+  background-color: #e56767;
+}
+
+/* Footer */
+footer {
+  background-color: #ffe6e6;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.95em;
+  color: #333;
+}
